@@ -1,0 +1,114 @@
+﻿/* cee4f2-b8aca5-69a3c7-f9c19f */
+
+/*
+Jet Black
+#282120
+
+Yellow
+#fad02c
+
+Cream
+#f8efe4
+
+Rosewater
+#e6c2bf
+*/
+
+#forgeViewer {
+  position: relative;
+  width: 100%;
+  height: 640px;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+html, body, .grid-container { height: 100%; margin: 0; background-color: #083D77; overflow: hidden; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "EDITOR EDITOR EDITOR NAME"
+    "EDITOR EDITOR EDITOR MENU"
+    "GRAFIC GRAFIC ISSUES MENU";
+}
+
+.EDITOR { grid-area: EDITOR;   
+  margin: 0; 
+  background-color: #083D77;
+ }
+.GRAFIC { grid-area: GRAFIC;   
+  margin: 0;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  background-color: #FCF7F8;
+}
+.ISSUES::-webkit-scrollbar {
+  display: none;
+}
+.ISSUES { grid-area: ISSUES; 
+  padding: 1em; 
+  overflow-y: scroll;
+  margin-bottom: 1em;
+  scrollbar-width: none;
+  background-color: #083977;
+  border: 1px white solid;
+  color: #FCF7F8 !important;
+  margin-right: -1em;
+  margin-left: 2em;
+}
+.NAME { grid-area: NAME; 
+  background-color: #083D77; 
+  margin: 0; }
+.MENU::-webkit-scrollbar {
+  display: none;
+}
+.MENU { grid-area: MENU; 
+  overflow-y: scroll;
+  background-color: #083D77;
+  padding: 0.25em;
+  scrollbar-width: none;
+  margin: 0;
+  margin-left: 1em;
+  margin-top: -0.4em;
+}
+
+.sensorHandleExtensionIcon {
+  background-image: url('../img/sensor.png');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sensorHandleExtensionIconSave {
+  background-image: url('../img/save.png');
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+.chartContainer {
+  width: 100%;
+  height: 315px;
+}
+
+.selected {
+  background-color: green !important;
+  color: #FCF7F8 !important;
+}
+
+.image {
+  max-width: 200px;
+}
+
+.btnCustom {
+  margin: 0.25em 1em 0.25em 1em;
+}

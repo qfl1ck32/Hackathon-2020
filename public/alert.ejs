@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "ro">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        
+        <title>Verification</title>
+    </head>
+
+    <style>
+
+      html {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin: 0em;
+        padding: 0em;
+      }
+  
+    </style>
+  
+    <body>
+  
+        <div style = "display: flex;
+                    justify-content: center;">
+            <div style = "display: flex;
+                        justify-content: center;
+                        background-color: #10456f;
+                        border-radius: 0.2em;
+                        border: 0.2em solid #062130;
+                        min-height: 100%;
+                        width: 100%;">
+                <div style = "color: white;
+                            font-size: 1.4em;
+                            font-family: 'Lucida Bright';">
+                  <p style = "text-align: center;">Hi there,</p>
+                  <p style = "text-align: center;">This message is informing you that, at <%= date %>, the sensor with id <%= id %> hit an unusual value - <%= value %>.</p>
+                  <p style = 'text-align: center;'>We advise you head towards the platform and check what's wrong.</p>
+                  <img style = 'margin-left: 18.3em;width: 280px; height: 160px;' src = 'https://i.ibb.co/5MwJ31V/logo.png'>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
