@@ -114,10 +114,6 @@ app.post('/sendNotification', async (req, res) => {
     res.sendStatus(200)
 })
 
-app.post('/test', (req, res) => {
-    res.send(1)
-})
-
 app.post('/storeSensorsData', async (req, res) => {
     const data = JSON.stringify(req.body)
 
