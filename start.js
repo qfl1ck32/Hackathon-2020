@@ -36,8 +36,8 @@ const mysql_settings = {
 const transporter = mailer.createTransport({
     service: 'gmail',
     auth: {
-        user: '',
-        pass: ''
+        user: 'algoritmiicpp@gmail.com',
+        pass: 'fEiw9Ed93A021oSxCxcSadE3'
     }
 })
 
@@ -129,7 +129,7 @@ app.post('/storeSensorsData', async (req, res) => {
         })
     })
 
-    res.send(1)
+    res.sendStatus(200)
 })
 
 app.post('/getSensorsData', async (req, res) => {
