@@ -12,7 +12,7 @@
 
 # Description
 
-This code is derived from a sample that is part of the [Learn Forge](http://learnforge.autodesk.io) tutorials. It has been modified by our team, 134stillAlive for Smarthack 2020. We participated as contestants for Autodesk, with the team "How could we use cloud computing in BIM to help your city develop into a smart city?".
+This code is derived from a sample that is part of the [Learn Forge](http://learnforge.autodesk.io) tutorials. It has been modified by our team, 134stillAlive for Smarthack 2020. We participated as contestants for Autodesk, with the theme "How could we use cloud computing in BIM to help your city develop into a smart city?".
 
 Our solution is an app aims to load a model while using sensors connected to a server. You can use the GUI then to join the elements in the viewer with the sensors, and monitor the data that the server receives. The changes are reflected in a graph, and in the viewer (the elements color changes according to the data received from the joined sensor). This is just a demo, and it simulates the data using random values, but in a real world scenario this setup can be used for monitoring many parameters (water, electricity, waste management).
 
