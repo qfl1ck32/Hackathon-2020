@@ -16,6 +16,11 @@ This code is derived from a sample that is part of the [Learn Forge](http://lear
 
 Our solution is an app aims to load a model while using sensors connected to a server. You can use the GUI then to join the elements in the viewer with the sensors, and monitor the data that the server receives. The changes are reflected in a graph, and in the viewer (the elements color changes according to the data received from the joined sensor). This is just a demo, and it simulates the data using random values, but in a real world scenario this setup can be used for monitoring many parameters (water, electricity, waste management).
 
+# Example with mock data
+
+![example](https://user-images.githubusercontent.com/56713436/114424124-7ee69980-9bc0-11eb-926b-dab214862ba8.png)
+
+
 # Setup
 
 To use this sample, you will need Autodesk developer credentials. Visit the [Forge Developer Portal](https://developer.autodesk.com), sign up for an account, then [create an app](https://developer.autodesk.com/myapps/create). For this new app, use **http://localhost:3000/api/forge/callback/oauth** as the Callback URL, although it is not used on a 2-legged flow. Finally, take note of the **Client ID** and **Client Secret**.
